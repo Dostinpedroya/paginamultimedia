@@ -1,0 +1,362 @@
+/*fsddfdf*/
+
+
+/*Estilos generales*/
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+
+    
+   
+}
+
+#header{
+
+min-width: 1024px;
+width: 100%;
+height: 250px;
+
+}
+
+#Logotipo{
+
+margin-left: 38%;
+
+
+}
+
+h1{
+
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-bottom: 30px;
+
+}
+
+#header > div > img{
+
+height: 300px;
+
+}
+
+h1 > a {
+
+text-decoration: none;
+color: #9a2b29;
+text-transform: uppercase;
+;
+}
+
+h1 :hover{
+
+    color: #e91310;
+    text-decoration: underline;
+    transition: 1000ms;
+}
+
+h1  :active{
+
+    color: #750806;
+    text-decoration: none;
+    transition: all 100ms;
+
+}
+
+
+/*Menu de la pàgina*/
+
+
+menu{
+
+
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+
+#menu > ul > li{
+padding-right:35px;
+margin-left: 5px;
+display: inline-block;
+
+}
+
+#menu > ul >li > a{
+text-decoration: none;
+color: rgb(250, 249, 249);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#menu > ul{
+text-align: center;
+background-color:#00508e ;
+
+
+}
+
+
+#menu > ul >li > a:hover{
+
+color: rgb(180, 177, 177);
+text-decoration: underline;
+box-shadow: 0px 0px 3px rgb(71, 70, 70) ;
+transition: all 600ms;
+
+}
+
+#menu > ul >li > a:active{
+
+color: rgb(100, 95, 95);
+text-decoration: none;
+box-shadow: 0px 0px 5px rgb(87, 85, 85) inset;
+
+
+}
+
+
+
+/*menu desplegable */
+#menu > ul > li > ul{
+
+    display: none;
+    position: absolute;
+    width: 360px;
+    z-index: 5;
+    box-shadow: 0px 0px 2px gray;
+    text-align: left;
+}
+
+
+#menu > ul > li:hover > ul{
+
+background-color:#00508e;
+display: block;
+width: 200px;
+
+}
+#menu > ul > li:hover > ul >li > a{
+color: white;
+text-decoration: none;
+
+
+}
+
+#menu > ul > li:hover > ul >li > a:hover{
+
+    color: rgb(180, 177, 177);
+    text-decoration: underline;
+    box-shadow: 0px 0px 3px rgb(71, 70, 70) ;
+    transition: all 600ms;
+
+    
+}
+
+
+#menu > ul > li:hover > ul >li > a:active{
+
+
+    color: rgb(100, 95, 95);
+    text-decoration: none;
+    box-shadow: 0px 0px 5px rgb(87, 85, 85) inset;
+
+}
+
+
+#menu > ul > li:hover > ul >li{
+
+
+margin-top: 7px;
+
+}
+/*fin del menu desplegable*/
+
+
+
+
+
+/*Asisde de la pagina*/
+
+aside{
+color: white;
+float: right;
+border:ridge;
+margin-top: 200px;
+height: 300px;
+width: 200px;
+background-color: #00508e;
+text-align: center;
+margin-right: 20px;
+position: sticky;
+bottom: 0;
+top: 0;
+}
+h3{
+color:white;
+text-decoration: underline;
+margin: 10px;
+
+
+
+}
+
+input{
+
+    margin: 5px;
+}
+
+.boton{
+
+width: 40%;
+color: black;
+}
+
+#login {
+
+
+} 
+
+
+
+
+/*Fin del aside*/
+
+
+
+/* Inicio del section*/
+
+
+
+
+h2{
+
+text-decoration: underline;
+text-align: center;
+margin-bottom: 20px;
+margin-right: 25px;
+
+}
+
+#section {
+
+
+
+
+margin-top: 16%;
+margin-right: 20px;
+width: 70%;
+height: 500px;
+float: right;
+position: sticky;
+
+    background-size: 50%;
+
+    color: black;
+
+
+
+
+
+}
+
+
+#section > section {
+
+margin-left: 30%;
+background-image: url();
+z-index: 5;
+height: 500px;
+width: 390px;
+
+
+
+
+}
+
+
+#section > section > article > p{
+
+
+    
+
+}
+
+
+#imagen-iglesia {
+
+
+position: fixed;
+width: 300px;
+height: 300px;
+top: 80%;
+right: 40%;
+co
+
+}
+#iamgen-iglesia > p{
+
+overflow: hidden;
+position: relative;
+
+
+}
+
+
+#imagen-iglesia > img{
+
+
+
+}
+
+section > .parrafo{
+
+
+height: 500px;
+overflow: hidden scroll;
+
+
+
+}
+
+/*Fin del section*/
+
+
+
+/* Inicio del footer*/
+
+
+footer{
+margin-top: 100%;
+height: 200px;
+background-color: black;
+width: 100%;
+}
+
+
+footer > div {
+
+text-align: center;
+color: white;
+
+}
+
+
+footer > div > ul > li > a{
+
+
+
+
+}
+
+/*Fin del footer*/
+
